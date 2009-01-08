@@ -32,7 +32,7 @@ El _tamaño_ es simplemente el tamaño del contenido, el contenido depende del t
 - Un **"blob"** es usado para almacenar ficheros de datos - es generalmente un fichero.
 - Un **"tree"** es basicamente un directorio - referencia a un puñado de otros 
      trees y/o blobs (por ejemplo: ficheros y sub-directorios)
-- Un **"commit"** apunta a un solo tree, marcando cómo el projecto lucia in un    
+- Un **"commit"** apunta a un solo tree, marcando cómo el projecto lucia en un    
      cierto punto en el tiempo. Contiene meta-información acerca de ese punto 
      en el tiempo, como la fecha y hora, el autor de los cambios desde el   
      ultimo commit, un puntero a los commits anteriores, etc.
@@ -46,10 +46,10 @@ funcinando por encima del sistema de archivos de tu maquina.
 
 ### Diferente de SVN ###
 
-Es importante remarcar que esto es muy diferente de la mayoria de los VCS con 
+Es importante remarcar que Git es muy diferente de la mayoria de los VCS con 
 los que puede ser que estes familiarizado. Subversion, CVS, Perforce, 
 Mercurial y similares usan todos un sistema de _Almacenamiento de Deltas_
 guardan las diferencias entre un commit y el siguiente. Git no hace esto 
 último, sino que almacena una foto instantánea de como lucían los archivos en 
-esta estructura de árbol cada vez que haces un commit. Esto es un concepto muy 
+esta estructura de árbol cada vez que haces un commit. Este es un concepto muy 
 importante de entender cuando uses Git.
